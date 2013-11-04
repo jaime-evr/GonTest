@@ -1,0 +1,5 @@
+<h2> Products </h2>
+<p> Total Products: <%= Product.count %> </p>
+<%= javascript_tag  do %>
+  window.total = <%= Product.count %>
+<% end %>
